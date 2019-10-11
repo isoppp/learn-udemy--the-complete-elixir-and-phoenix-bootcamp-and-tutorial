@@ -1,6 +1,8 @@
 # Cards
 
-**TODO: Add description**
+## Commands
+
+- `iex -S mix`
 
 ## Installation
 

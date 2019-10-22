@@ -3,6 +3,8 @@
 ## Commands
 
 - `iex -S mix`
+- `mix deps.get`
+- `mix docs`
 
 ## Installation
 

@@ -13,3 +13,19 @@ defmodule CardsTest do
     refute deck == Cards.shuffle(deck)
   end
 end
+
+# extra: maps
+
+#colors = %{primary: "red", secondary: "blue"}
+#%{secondary: secondary_color} = colors # define secondary_color
+#Map.put(colors, :primary, "blue") # update value of primary key
+#%{ colors | primary: "blue" } # return new map
+## %{colors | secondary_color: "green"} # cause error
+#Map.put(colors, :secondary_color, "green") # add value
+
+# extra: keyword lists
+
+#colors = [{:primary, "red"}, {:secondary, "green"}]
+#colors[:primary]
+#colors = [primary: "red", secondary: "blue"]
+#colors = [primary: "red", primary: "blue"] # create two individual values

@@ -5,6 +5,7 @@
 - `iex -S mix`
 - `mix deps.get`
 - `mix docs`
+- `mix test`
 
 ## Installation
 
